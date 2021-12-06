@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Four minute</title>
+    <link rel="icon" type="image/x-icon" href="/Icon/Favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+
+</head>
+<body class="gallerybodydark">
+<section class="sub-header">
+        <nav>
+            <img src="/Icon/Logo yellow.png" id="gallerydark"></a>
+        </nav>
+        <h1>Gallery</h1>
+        <div id="profilicon"></div>
+</section>
+
+
+
+<!--- About --->
+
+<section id="gallerysatu">
+<!-- The App Section -->
+<div class="satu">
+    <div class="dua">
+        <div class="tiga-66">
+            <p><span style="font-size:30px"><b>Rudiyanto rusli</b></span><br><br>You should buy this app because lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+    <div class="empat-33">
+        <img src="/Image/Gallery/Robot2.jpg" width="100%">
+    </div>
+    </div>
+</div>
+</section>
+
+
+<!-- Gallery -->
+
+<div class="mygallery">
+    <h1>Image Gallery</h1>
+</div>
+
+
+
+
+<section id="bodygallery">
+<!-- Photo Grid -->
+
+    <div class="galleryrow"> 
+
+        <div class="columngallery">
+            <img src="/Image/Gallery/Gambar1.jpg" style="width:100%">
+            <img src="/Image/Gallery/Gambar4.jpg" style="width:100%">
+            <img src="/Image/Gallery/Gambar5.jpg" style="width:100%">
+            <img src="/Image/Gallery/Gambar2.jpg" style="width:100%">
+            <img src="/Image/Gallery/Gambar3.jpg" style="width:100%">
+            <img src="/Image/Gallery/Gambar12.jpg" style="width:100%">
+        </div>  
+        <div class="columngallery">
+            <img src="/Image/Gallery/Gambar6.jpg" style="width:100%">
+            <img src="/Image/Gallery/Gambar9.jpg" style="width:100%">
+            <img src="/Image/Gallery/Gambar8.jpg" style="width:100%">
+            <img src="/Image/Gallery/Gambar11.jpg" style="width:100%">
+            <img src="/Image/Gallery/Gambar10.jpg" style="width:100%">
+            <img src="/Image/Gallery/Gambar7.jpg" style="width:100%">
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+<section class="cta">
+    <h1>Jika ada pertanyaan klik tombok Contact</h1>
+    <a href="#" class="contact-btn">Contact</a>
+</section>
+
+
+
+
+
+<!--- Footer --->
+
+<section id="footer2">
+    <h1>Gallery</h1>
+    <div class="icon">
+        <a href="https://www.facebook.com/RudzSan.Gatsu"><i class="fa fa-facebook"></i></a><a href="https://www.instagram.com/li_rudi23/"><i class="fa fa-instagram"></i></a><a href="https://id.pinterest.com/Robotsenja/_saved/"><i class="fa fa-pinterest"></i></a>
+    </div>
+    <h5>Made with <i class="fa fa-heart-o" id="heartgallery"></i> FourMinute</h5>
+</section>
+
+
+
+
+
+<!-- Dark mode-->
+<script>
+    var gallerydark= document.getElementById("gallerydark");
+    
+    gallerydark.onclick = function(){
+        document.body.classList.toggle("gallerydark-theme");
+        if(document.body.classList.contains("gallerydark-theme")){
+            gallerydark.src = "/Icon/Logo white.png";
+        }else{
+            gallerydark.src = "/Icon/Logo yellow.png";
+        }
+    }
+</script>
+
+
+
+
+<!--- JavaScript for Toggle menu--->
+<script>
+    var navLink = document.getElementById("navLinks");
+
+    function showmenu(){
+        navLinks.style.right = "0";
+    }
+    function hidemenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+</body>
+</html>
